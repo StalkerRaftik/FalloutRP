@@ -1,0 +1,12 @@
+# Ignore everything
+*
+# But descend into directories
+!*/
+# Recursively allow files under subtree
+!/garrysmod/addons/**
+!/garrysmod/cfg/**
+!/garrysmod/gamemodes/darkrp/**
+!/garrysmod/data/**
+!/garrysmod/lua/autorun/**
+# You can be specific with these rules
+!.gitignore
