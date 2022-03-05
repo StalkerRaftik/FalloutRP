@@ -1,3 +1,3 @@
 #!/bin/bash
 
-./gmod_server/srcds_run -game garrysmod -norestart -port 27015 +maxplayers $MAX_PLAYERS +map $INITIAL_MAP -authkey $AUTHKEY +host_workshop_collection $WORKSHOP_COLLECTION
+./source_logger -game garrysmod -norestart -port 27015 +maxplayers 128 +map gm_construct +host_workshop_collection 2760527539 +gamemode darkrp +r_hunkalloclightmaps 0

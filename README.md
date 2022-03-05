@@ -7,3 +7,11 @@
 4.  2. `app_update 4020 validate`
 5. Пулитесь с `main`
 6. Готово!
+
+### Дополнительно:
+#### Если сервер при запуске выдает `WARNING`: 
+```bash
+sudo add-apt-repository universe
+sudo apt-get install lib32stdc++6
+sudo apt-get install libncurses5 libncurses5:i386
+```

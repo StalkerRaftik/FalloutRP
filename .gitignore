@@ -1,14 +1,25 @@
-# Ignore everything
-*
-# But descend into directories
-!*/
-# Recursively allow files under subtree
-!/start.bat
-!/start.sh
-!/garrysmod/addons/**
-!/garrysmod/cfg/**
-!/garrysmod/gamemodes/darkrp/**
-!/garrysmod/data/**
-!/garrysmod/lua/autorun/**
-# You can be specific with these rules
-!.gitignore
+/.idea/
+/bin/
+/platform/
+/sourceengine/
+/steamapps/
+/steam_cache/
+/.editorconfig
+/.htaccess
+/source_logger
+/srcds_linux
+/srcds_run
+/steam_appid.txt
+/ThirdPartyLegalNotices.txt
+/.gitattributes
+
+
+/garrysmod/*
+!/garrysmod/addons/
+!/garrysmod/cfg/
+!/garrysmod/cfg/server.cfg
+!/garrysmod/gamemodes/
+/garrysmod/gamemodes/*
+!/garrysmod/gamemodes/darkrp/
+!/garrysmod/sv.db
+
